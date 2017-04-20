@@ -29,4 +29,41 @@
 	    android:textColor="#4CAF50"
 	    android:textSize="50sp"
 	    android:id="@+id/msg2"/>
+
+	<TextView
+		android:id="@+id/text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:text="@string/Text" />
+
+		<Button
+			android:id="@+id/turnOn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/on" />
+
+		<Button
+			android:id="@+id/turnOff"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/off" />
+	<Button
+		android:id="@+id/paired"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/List" />
+
+	<Button
+		android:id="@+id/search"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/Find" />
+
+	<ListView
+		android:id="@+id/listView1"
+		android:layout_width="fill_parent"
+		android:layout_height="200dp" >
+	</ListView>
+
 </LinearLayout>
